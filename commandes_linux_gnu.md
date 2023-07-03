@@ -42,4 +42,5 @@
 * modifier un utilisateur : `usermod [nom_user]`
 * supprimer un utilisateur : `userdel [nom_user]`
 * créer un groupe : `groupadd [nom_groupe]`
-* 
+* ajouter un utilisateur à un groupe : `usermod -aG [nom_groupe] [nom_user]`
+* afficher liste groupes d'un user : `groups [nom_user]`
