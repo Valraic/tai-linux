@@ -7,7 +7,7 @@
 * Gestion des logiciels
 * Commandes avancées
 
-## Concepts généraux
+### Concepts généraux
 * Commande : logiciel lancé sans interface graphique
 * KISS : 'Keep it simple and stupid'
 * Chainer des commandes : on utilise le `|`
@@ -16,7 +16,7 @@
   * \>\> : ajoute à la suite du fichier : `date >> /tmp/date.txt`
 * Afficher le manuel des commandes : `man [commande]`
 
-## Manipulation fichiers et répertoires
+### Manipulation fichiers et répertoires
 * afficher le répertoire actuel : `pwd`
 * afficher le contenu du répertoire : `ls`
 * changer de répertoire : `cd`
@@ -34,3 +34,12 @@
 * afficher le début d'un fichier : `head [fichier]`
 * afficher les lignes contenant mot clé : `grep [mot clé] [fichier]`
 
+
+### Gestion users et droits
+* se connecter en root : `su -`
+* effectuer une commande en droit root : `sudo [commande]`
+* créer un utilisateur : `useradd -m -d /home/[nom_user] -s /bin/bash [nom_user]`
+* modifier un utilisateur : `usermod [nom_user]`
+* supprimer un utilisateur : `userdel [nom_user]`
+* créer un groupe : `groupadd [nom_groupe]`
+* 
